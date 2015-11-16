@@ -3,8 +3,8 @@
 
   <div class="form-inputs">
 
-    <%= f.association :posts %>
-    ##something is wrong with the above not sure what- trying to have a list of posts but throwing an error
+    
+	<%= f.association :posts, as: :check_boxes %>
     <%= f.input :name %>
 
   </div>

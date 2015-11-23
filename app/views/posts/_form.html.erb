@@ -2,6 +2,7 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
+    <%= f.association :categories, as: :check_boxes %>
     <%= f.input :name %>
     <%= f.input :content %>
     <%= f.input :featured_image %>

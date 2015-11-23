@@ -74,7 +74,7 @@ class PostsController < ApplicationController
                                     :content, 
                                     :featured_image,
                                     :user_id,
-                                    { post_id: [] })
+                                    { category_id: [] })
 
 
     end
